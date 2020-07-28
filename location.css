@@ -1,0 +1,35 @@
+body{
+  background-color: #29b6f6;
+  margin : auto;
+  text-align: center;
+  color: black;
+}
+
+body {
+  font-family: 'Rowdies', cursive;
+}
+
+h2{
+  margin: 100px;
+}
+
+input{
+  background-color : #29b6f6;
+  border-color: black;
+  color: black;
+  height: 30px;
+  /*margin: 100px;*/
+}
+
+#submit:hover{
+  background-color: black;
+  color: #29b6f6;
+}
+
+button{
+  background-color : #29b6f6;
+  border-color: black;
+  color: black;
+  height: 30px;
+  margin: 50px;
+}

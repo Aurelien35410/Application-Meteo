@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Appli Météo | Choix Commune</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+      <link rel="stylesheet" href="location.css">
+    <script src="location.js" defer></script>
+    <link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@700&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <h1 id="heading">Application Météo</h1>
+
+    <h2>Maintenant choisissez la commune</h2>
+
+    <form id="locationForm" action="" method="post">
+      <label for="locationSearch">Nom de commune</label>
+      <input type="text" name="locationSearch" value="">
+      <label for="locationArea">Numéro de département</label>
+      <input type="number" name="locationArea" value="">
+      <input id="submit" type="submit" name="submitLocationSearch" value="Rechercher" class="btn btn-primary">
+    </form>
+
+    <div id="locationList"></div>
+
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
+</html>
