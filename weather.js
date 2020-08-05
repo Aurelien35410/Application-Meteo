@@ -701,11 +701,11 @@ function weatherTextDescriptionForWeek (){
       break;
     case 1:
        weatherText = "Peu Nuageux";
-      weatherImage.src = "img/icones/peu_nuageux.png";
+      weatherImage.src = "img/icones/nuageux.png";
       break;
     case 2:
        weatherText = "Ciel voilé";
-      weatherImage.src = "img/icones/peu_nuageux.png";
+      weatherImage.src = "img/icones/nuageux.png";
     break;
     case 3:
        weatherText = "Nuageux";
@@ -717,7 +717,7 @@ function weatherTextDescriptionForWeek (){
       break;
     case 5:
        weatherText = "Couvert";
-      weatherImage.src = "img/icones/peu_nuageux.png";
+      weatherImage.src = "img/icones/tres_nuageux.png";
       break;
     case 6:
        weatherText = "Brouillard";
@@ -725,28 +725,31 @@ function weatherTextDescriptionForWeek (){
       break;
     case 7:
        weatherText = "Brouillard givrant";
-      weatherImage.src = "img/icones/brouillard.png";
+      weatherImage.src = "img/icones/brouillard_givrant.png";
       break;
     case 10:
        weatherText = "Pluie faible";
-      weatherImage.src = "img/icones/pluie.png";
+      weatherImage.src = "img/icones/faible_averse.png";
       break;
     case 11:
        weatherText = "Pluie modérée";
-      weatherImage.src = "img/icones/pluie.png";
+      weatherImage.src = "img/icones/moyenne_averse.png";
       break;
     case 12:
        weatherText = "Pluie forte";
-      weatherImage.src = "img/icones/pluie.png";
+      weatherImage.src = "img/icones/forte_averse.png";
       break;
     case 13:
        weatherText = "Pluie faible verglaçante";
+       weatherImage.src = "img/icones/pluie_faible_verglacante.png";
       break;
     case 14:
        weatherText = "Pluie modérée verglaçante";
+       weatherImage.src = "img/icones/pluie_moyenne_verglacante.png";
       break;
     case 15:
        weatherText = "Pluie forte verglaçante";
+       weatherImage.src = "img/icones/pluie_moyenne_verglacante.png";
       break;
     case 16:
        weatherText = "Bruine";
@@ -771,57 +774,75 @@ function weatherTextDescriptionForWeek (){
       break;
     case 40:
        weatherText = "Averses de pluie locales et faibles";
+       weatherImage.src = "img/icones/pluie.png";
       break;
     case 41:
        weatherText = "Averses de pluie locales";
+       weatherImage.src = "img/icones/pluie.png";
       break;
     case 42:
        weatherText = "Averses locales et fortes";
+       weatherImage.src = "img/icones/pluie.png";
       break;
     case 43:
        weatherText = "Averses de pluie faibles";
+       weatherImage.src = "img/icones/pluie.png";
       break;
     case 44:
        weatherText = "Averses de pluie";
+       weatherImage.src = "img/icones/pluie.png";
       break;
     case 45:
        weatherText = "Averses de pluie fortes";
+       weatherImage.src = "img/icones/pluie.png";
       break;
     case 46:
        weatherText = "Averses de pluie faibles et fréquentes";
+       weatherImage.src = "img/icones/pluie.png";
       break;
     case 47:
        weatherText = "Averses de pluie fréquentes";
+       weatherImage.src = "img/icones/pluie.png";
     break;
     case 48:
        weatherText = "Averses de pluie fortes et fréquentes";
+       weatherImage.src = "img/icones/pluie.png";
       break;
     case 60:
        weatherText = "Averses de neige localisées et faibles";
+       weatherImage.src = "img/icones/neige.png";
       break;
     case 61:
        weatherText = "Averses de neige localisées";
+       weatherImage.src = "img/icones/neige.png";
       break;
     case 62:
        weatherText = "Averses de neige localisées et fortes";
+       weatherImage.src = "img/icones/neige.png";
       break;
     case 63:
        weatherText = "Averses de neige faibles";
+       weatherImage.src = "img/icones/neige.png";
       break;
     case 64:
        weatherText = "Averses de neige";
+       weatherImage.src = "img/icones/neige.png";
       break;
     case 65:
        weatherText = "Averses de neige fortes";
+       weatherImage.src = "img/icones/neige.png";
       break;
     case 66:
        weatherText = "Averses de neige faibles et fréquentes";
+       weatherImage.src = "img/icones/neige.png";
       break;
     case 67:
        weatherText = "Averses de neige fréquentes";
+       weatherImage.src = "img/icones/neige.png";
       break;
     case 68:
        weatherText = "Averses de neige fortes et fréquentes";
+       weatherImage.src = "img/icones/neige.png";
       break;
     case 70:
        weatherText = "Averses de pluie et neige mêlées localisées et faibles";
@@ -852,6 +873,7 @@ function weatherTextDescriptionForWeek (){
       break;
     case 100:
        weatherText = "Orages faibles et locaux";
+
       break;
     case 101:
        weatherText = "Orages locaux";
